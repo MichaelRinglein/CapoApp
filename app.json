@@ -1,20 +1,27 @@
 {
   "expo": {
-    "name": "CapoApp",
-    "description": "This project is really great.",
-    "slug": "CapoApp",
+    "name": "Capo Keys App",
+    "description": "Capo Transponding Tool for guitarists",
+    "slug": "capo-keys-app",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
+    "primaryColor": "#FFC107",
     "icon": "./assets/icon.png",
     "loading": {
       "icon": "./assets/icons/loading-icon.png",
       "hideExponentText": false
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.nordinavia.capokeysapp",
+      "permissions": [],
+      "versionCode": 1
     }
   }
 }
