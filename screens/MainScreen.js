@@ -19,13 +19,13 @@ class MainScreen extends Component {
     static navigationOptions = () => ({
         title: 'Capo Keys App',
         headerStyle: {
-            height: Platform.OS === 'android' ? 54 + STATUS_BAR_HEIGHT : 54,
+            height: 54,
             backgroundColor: '#FFC107'
-        },
-        headerTitleStyle: {
-            marginTop: Platform.OS === 'android' ? STATUS_BAR_HEIGHT : 0,
+          },
+          headerTitleStyle: {
+            marginTop: 0,
             color: 'white'
-        },
+          },
         headerLeft: 
             <Image
                 source={icon}
@@ -71,7 +71,7 @@ class MainScreen extends Component {
 
 const styles = {
     imageStyle: {
-        marginTop: 20,
+        marginTop: 5,
         marginLeft: 10,
         width: 40,
         height: 40
