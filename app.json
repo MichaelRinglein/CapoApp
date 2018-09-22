@@ -1,27 +1,27 @@
 {
   "expo": {
     "name": "Capo Keys",
-    "description": "Capo Transponding Tool for guitarists",
+    "description": "Capo Transposing Tool for guitarists",
     "slug": "capo-keys-app",
     "privacy": "public",
     "sdkVersion": "25.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "primaryColor": "#FFC107",
     "icon": "./assets/icon.png",
     "loading": {
       "icon": "./assets/icons/loading-icon.png",
-      "hideExponentText": false
+      "hideExponentText": true
     },
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1"
+      "buildNumber": "2"
     },
     "android": {
       "package": "com.nordinavia.capokeysapp",
       "permissions": [],
-      "versionCode": 1
+      "versionCode": 2
     }
   }
 }
